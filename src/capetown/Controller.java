@@ -18,7 +18,7 @@ public class Controller {
         Image image;
          if(event.getSource().equals(stadiumButton)) {
              imageView.setImage(image = new Image("file:src/capetown/Images/CapeTownStadium.jpg"));
-             textLabel.setText("The 55,000-capacity stadium used for the 2010 football world cup.");
+             textLabel.setText("The 55,000-capacity stadium built for the 2010 football world cup.");
         } else if(event.getSource().equals(islandButton)) {
             imageView.setImage(image = new Image("file:src/capetown/Images/RobbenIsland.jpg"));
             textLabel.setText("The former prison island of South Africa where Nelson Mandela spent " +
