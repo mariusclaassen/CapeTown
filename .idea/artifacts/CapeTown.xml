@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="CapeTown">
+    <output-path>$PROJECT_DIR$/out/artifacts/CapeTown</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="capetown.Main" />
+        <option name="description" value="Simple Cape Town App" />
+        <option name="htmlParamFile" value="" />
+        <option name="paramFile" value="" />
+        <option name="title" value="Cape Town App" />
+        <option name="vendor" value="AlefTav" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="CapeTown.jar">
+        <element id="module-output" name="CapeTown" />
+      </element>
+    </root>
+  </artifact>
+</component>
