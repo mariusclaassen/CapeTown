@@ -10,7 +10,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.*?>
 
-<VBox prefHeight="361.0" prefWidth="476.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="capetown.Controller">
+<VBox prefHeight="361.0" prefWidth="476.0" stylesheets="/capetown/Capetown.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="capetown.Controller">
    <children>
       <BorderPane prefHeight="320.0" prefWidth="389.0">
          <top>
@@ -38,7 +38,7 @@
                      <children>
                         <Pane>
                            <children>
-                              <Label fx:id="textLabel" contentDisplay="CENTER" onDragDetected="#buttonClicked" prefHeight="47.0" prefWidth="308.0" wrapText="true" HBox.hgrow="ALWAYS" />
+                              <Label fx:id="textLabel" contentDisplay="CENTER" onDragDetected="#buttonClicked" prefHeight="47.0" prefWidth="308.0" styleClass="textLabel" stylesheets="@Capetown.css" wrapText="true" HBox.hgrow="ALWAYS" />
                            </children>
                         </Pane>
                      </children>
