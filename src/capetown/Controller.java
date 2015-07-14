@@ -7,6 +7,8 @@ import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
+import java.io.IOException;
+
 public class Controller {
 
     @FXML private Button stadiumButton;
@@ -15,7 +17,7 @@ public class Controller {
     @FXML private Button mountainButton;
     @FXML private Label textLabel;
 
-    @FXML public void buttonClicked (ActionEvent event){
+    @FXML public void buttonClicked (ActionEvent event) throws IOException {
          if(event.getSource().equals(stadiumButton)) {
              imageView.setImage(new Image("file:src/capetown/Images/CapeTownStadium.jpg"));
              textLabel.setText("The 55,000-capacity stadium built for the 2010 football world cup.");
