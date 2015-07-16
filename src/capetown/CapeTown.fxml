@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
@@ -16,15 +17,15 @@
          <top>
             <HBox alignment="CENTER" prefHeight="55.0" prefWidth="456.0" spacing="10.0" BorderPane.alignment="CENTER">
                <children>
-                  <Button fx:id="stadiumButton" mnemonicParsing="false" onAction="#buttonClicked" text="Cape Town Stadium">
+                  <Button fx:id="stadiumButton" mnemonicParsing="false" onAction="#buttonClicked" styleClass="stadiumButton" stylesheets="@Capetown.css" text="Cape Town Stadium">
                      <tooltip>
                         <Tooltip text="Photo of Cape Town Stadium" />
                      </tooltip></Button>
-                  <Button fx:id="islandButton" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#buttonClicked" text="Robben Island">
+                  <Button fx:id="islandButton" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#buttonClicked" styleClass="islandButton" stylesheets="@Capetown.css" text="Robben Island">
                      <tooltip>
                         <Tooltip text="Photo of Robben Island" />
                      </tooltip></Button>
-                  <Button fx:id="mountainButton" layoutX="62.0" layoutY="10.0" mnemonicParsing="false" onAction="#buttonClicked" text=" Table Mountain">
+                  <Button fx:id="mountainButton" layoutX="62.0" layoutY="10.0" mnemonicParsing="false" onAction="#buttonClicked" styleClass="mountainButton" stylesheets="@Capetown.css" text=" Table Mountain">
                      <tooltip>
                         <Tooltip text="Photo of Table Mountain" />
                      </tooltip></Button>

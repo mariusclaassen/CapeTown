@@ -2,6 +2,19 @@
 -fx-background-color: #ff8c00;
 }
 
+.stadiumButton {
+-fx-font-weight: 700;
+}
+
+.islandButton {
+-fx-font-weight: 700;
+}
+
+.mountainButton {
+-fx-font-weight: 700;
+}
+
 .textLabel {
 -fx-font-size: 11;
 }
+
