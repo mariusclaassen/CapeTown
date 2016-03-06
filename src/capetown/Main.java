@@ -1,3 +1,4 @@
+
 package capetown;
 
 import javafx.application.Application;
@@ -6,13 +7,9 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-/**
- * @author Marius Claassen
- * 4 Jul 2015
- */
-
 public class Main extends Application {
 
+    // Entry point of JavaFX application
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("CapeTown.fxml"));
@@ -21,7 +18,7 @@ public class Main extends Application {
         primaryStage.show();
     }
 
-
+    // Java main for when running without JavaFX launcher
     public static void main(String[] args) {
         launch(args);
     }

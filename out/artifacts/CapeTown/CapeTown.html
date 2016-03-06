@@ -15,14 +15,14 @@
 </script>
 
 <script>
-    function javafxEmbed_CapeTown_id() {
+    function javafxEmbedCapeTown_id() {
         dtjava.embed(
             {
                 id : 'CapeTown_id',
                 url : 'CapeTown.jnlp',
                 placeholder : 'javafx-app-placeholder',
-                width : 600,
-                height : 400
+                width : '600',
+                height : '400'
             },
             {
                 javafx : '8.0+'
@@ -31,7 +31,7 @@
         );
     }
     <!-- Embed FX application into web page once page is loaded -->
-    dtjava.addOnloadCallback(javafxEmbed_CapeTown_id);
+    dtjava.addOnloadCallback(javafxEmbedCapeTown_id);
 </script>
 
 </head><body>

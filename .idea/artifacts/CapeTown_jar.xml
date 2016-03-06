@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CapeTown:jar">
+    <output-path>$PROJECT_DIR$/src/capetown</output-path>
+    <root id="archive" name="CapeTown.jar">
+      <element id="module-output" name="CapeTown" />
+    </root>
+  </artifact>
+</component>
